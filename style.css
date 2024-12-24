@@ -446,10 +446,11 @@ footer li {
 }
 
 /* mobile phone */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   html {
     font-size: 58%;
   }
+
   .home {
     padding-top: 7rem;
     height: 100vh;
@@ -460,12 +461,25 @@ footer li {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .home h3 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  .home p {
+    font-size: 1.3rem;
+  }
   .home .couple {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .home .couple p {
     padding-right: 2px;
     margin-left: 2px;
+  }
+  .home .couple .lf {
+    margin-top: 30px;
+  }
+  .info {
+    margin-top: 2rem;
   }
   .mynavbar .nav-link {
     font-size: 2rem;
